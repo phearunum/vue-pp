@@ -6,7 +6,7 @@ import useUserStore from '../stores/modules/user'
 axios.defaults.headers['Content-Type'] = 'application/json;charset=utf8'
 
 const service = axios.create({
-    baseURL: 'http://127.0.0.1:4000/api/',
+    baseURL: 'http://34.221.254.120:4000/api/',
     timeout:30000
 })
 service.interceptors.request.use(
